@@ -15,9 +15,12 @@ int main() {
     };
 
     cout << "\nFeatures:" << endl;
-    for (size_t i = 0; i < features.size(); i++) {
-        cout << i + 1 << ". " << features[i] << endl;
-    }
+
+    int name;
+
+    cin >> name;
+
+    cout << name;
 
     return 0;
 }
