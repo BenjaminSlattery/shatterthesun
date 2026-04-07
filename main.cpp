@@ -15,7 +15,9 @@ int main() {
         "Audio output (instant, no delay)"
     };
 
-    cout << "\nFeatures:" << endl;
+    Screen *screen = new Screen();
+    screen->Update();
+    screen->Print();
 
     int name;
 
