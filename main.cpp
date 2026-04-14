@@ -17,8 +17,8 @@ int main() {
     };
 
     Screen *screen = new Screen();
-    screen->Update();
-    screen->Print();
+    //screen->Update();
+    //screen->Print();
 
     int name;
 
