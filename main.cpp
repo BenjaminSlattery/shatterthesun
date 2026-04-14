@@ -39,6 +39,8 @@ int main() {
     GLFWwindow* win = glfwCreateWindow(800, 600, "ImGui Demo", nullptr, nullptr);
     glfwMakeContextCurrent(win);
 
+    Screen *screen = new Screen();
+
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     ImGui_ImplGlfw_InitForOpenGL(win, true);
