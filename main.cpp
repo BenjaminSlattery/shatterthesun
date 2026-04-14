@@ -39,5 +39,5 @@ int main() {
         glfwSwapBuffers(win);
     }
     return 0;
-};
+}
 
