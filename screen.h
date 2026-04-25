@@ -1,3 +1,7 @@
-class Screen {
- char screen[80][50];
-}
+#pragma once
+
+  class Screen {
+  public:
+      char screen[80][50];
+  };
+  
