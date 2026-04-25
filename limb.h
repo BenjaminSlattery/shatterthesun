@@ -1,7 +1,10 @@
-#include <vector>
+#pragma once
 
-class Limb {
-public:
- int durability;
- vector<Limb> children;
-}
+  #include <vector>
+
+  class Limb {
+  public:
+      int durability;
+      std::vector<Limb> children;
+  };
+  
