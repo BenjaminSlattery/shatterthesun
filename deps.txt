@@ -1,0 +1,15 @@
+# C++ Studio dependencies — auto-pulled at compile time.
+  # Format: <github-url> [+src]
+  #   header-only deps:    no flag needed
+  #   deps with .c/.cpp:   add +src so source files get compiled in
+
+  # TinySoundFont — single-header GM-compatible soundfont synth.
+  https://github.com/schellingb/TinySoundFont
+
+  # SAM — software speech synthesizer (pure C, source-built).
+  https://github.com/s-macke/SAM +src
+
+  # Dear ImGui — immediate-mode GUI (source-built, with backends).
+  # Win32 / DirectX / Metal / Vulkan / SDL backends are auto-skipped on Linux.
+  https://github.com/ocornut/imgui +src
+  
