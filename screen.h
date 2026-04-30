@@ -3,9 +3,13 @@
   class Screen {
   public:
       char screen[80][50];
-      
+
     Screen() {
 
+    }
+
+    Update() {
+        
     }
   };
   
