@@ -11,7 +11,7 @@
     }
 
     Update() {
-        for (int x = 0; x <)
+        for (int x = width; x < )
     }
   };
   
