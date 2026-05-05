@@ -12,7 +12,6 @@
 using namespace std;
 
 int main() {
-    Screen *screen = new Screen();
     
     glfwInit();
     GLFWwindow* win = glfwCreateWindow(800, 600, "ImGui Demo", nullptr, nullptr);
