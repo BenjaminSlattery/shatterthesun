@@ -41,9 +41,13 @@
               const float scale = std::max(0.1f, std::min(scaleX, scaleY));
               ImGui::SetWindowFontScale(scale);
           }
+          // Origin convention: screen[x][0] is the BOTTOM row, screen[x][height-1]
+          // is the TOP. Iterate rows top-to-bottom on screen by walking y from
+          // height-1 down to 0, so the visual layout matches a math/Cartesian
+          // coordinate system rather than a top-left raster.
           char rowBuf[81];
           rowBuf[width] = '\0';
-          for (int y = 0; y < height; y++) {
+          for (int y = height - 1; y >= 0; y--) {
               for (int x = 0; x < width; x++) rowBuf[x] = screen[x][y];
               ImGui::TextUnformatted(rowBuf, rowBuf + width);
           }
