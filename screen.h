@@ -10,7 +10,7 @@
 
     }
 
-    Update() {
+    void Update() {
         for (int x = 1; x < width-1; x++) {
             
         }
