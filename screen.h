@@ -7,7 +7,7 @@
       char screen[80][50];
 
     Screen() {
-
+        Update();
     }
 
     void Update() {
