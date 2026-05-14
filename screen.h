@@ -5,7 +5,7 @@
   class Screen {
   public:
       const int width = 80;
-      int height = 50;
+      const int height = 50;
       char screen[80][50];
 
       Screen() {
