@@ -10,7 +10,7 @@
 
       Screen() {
           // Initialize so uninitialized memory doesn't render as garbage glyphs.
-          for (int x = 0; x < width; x++)
+          for (int x = 0; x < WIDTH; x++)
               for (int y = 0; y < height; y++)
                   screen[x][y] = ' ';
           Update();
