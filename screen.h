@@ -59,7 +59,7 @@
           // coordinate system rather than a top-left raster.
           char rowBuf[81];
           rowBuf[width] = '\0';
-          for (int y = height - 1; y >= 0; y--) {
+          for (int y = HEIGHT - 1; y >= 0; y--) {
               for (int x = 0; x < width; x++) rowBuf[x] = screen[x][y];
               ImGui::TextUnformatted(rowBuf, rowBuf + width);
           }
