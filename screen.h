@@ -49,7 +49,7 @@
           const float baseCharH = ImGui::GetTextLineHeight();
           if (baseCharW > 0.0f && baseCharH > 0.0f) {
               const float scaleX = avail.x / (baseCharW * (float)WIDTH);
-              const float scaleY = avail.y / (baseCharH * (float)height);
+              const float scaleY = avail.y / (baseCharH * (float)HEIGHT);
               const float scale = std::max(0.1f, std::min(scaleX, scaleY));
               ImGui::SetWindowFontScale(scale);
           }
