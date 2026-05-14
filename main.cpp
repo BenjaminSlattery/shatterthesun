@@ -31,7 +31,7 @@ int main() {
         ImGui::NewFrame();
 
         ImGui::Begin("Hello");
-        ImGui::Text(screen->);
+        ImGui::Text(screen->screen);
         ImGui::End();
 
         ImGui::Render();
