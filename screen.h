@@ -26,7 +26,7 @@
                 screen[x][0] = "═";
                 screen[x][HEIGHT - 1] = "═";
                 if (x < 20)
-                    screen[x][17] = "═";
+                    screen[x][LEFTVERTSPLIT] = "═";
                 else
                     screen[x][RIGHTVERTSPLIT] = "═";
             }
