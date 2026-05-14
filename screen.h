@@ -34,7 +34,7 @@
             for (int y = 1; y < HEIGHT - 1; y++) {
                 screen[0][y] = "║";
                 screen[WIDTH - 1][y] = "║";
-                screen[20][y] = "║";
+                screen[HORIZSPLIT][y] = "║";
             }
 
             screen[HORIZSPLIT][LEFTVERTSPLIT] = "╣";
