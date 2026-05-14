@@ -17,13 +17,28 @@
       }
 
       void Update() {
-          for (int x = 1; x < width-1; x++) {
-              
-          }
-          for (int y = 1; y < height-1; y++) {
-              
-          }
-      }
+        for (int x = 1; x < WIDTH-1; x++) {
+            screen[x][0] = '═';
+            screen[x][HEIGHT-1] = '═';
+            if (x < 20)
+                screen[x][17] = '═';
+            else
+                screen[x][27] = '═';
+        }
+
+        for (int y = 1; y < HEIGHT-1; y++) {
+            screen[0][y] = '║';
+            screen[WIDTH-1][y] = '║';
+            screen[20][y] = '║';
+        }
+
+        screen[20][17] = '╣';
+        screen[20][27] = '╠';
+        screen[0][0] = '╚';
+        screen[0][HEIGHT-1] = '╔';
+        screen[WIDTH-1][0] = '╝';
+        screen[WIDTH-1][HEIGHT-1] = '╗';
+    }
 
       // Draw the 80x50 grid into the current ImGui window. Auto-scales the font
       // so the grid fills whatever space the host ImGui window provides — pair
