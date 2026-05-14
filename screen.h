@@ -17,14 +17,11 @@
       }
 
       void Update() {
-          // Border so the screen is visibly bounded; replace with game state later.
-          for (int x = 0; x < width; x++) {
-              screen[x][0] = '#';
-              screen[x][height - 1] = '#';
+          for (int x = 1; x < width-1; x++) {
+              
           }
-          for (int y = 0; y < height; y++) {
-              screen[0][y] = '#';
-              screen[width - 1][y] = '#';
+          for (int y = 1; y < height-1; y++) {
+              
           }
       }
 
