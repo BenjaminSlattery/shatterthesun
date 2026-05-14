@@ -58,7 +58,7 @@
           // height-1 down to 0, so the visual layout matches a math/Cartesian
           // coordinate system rather than a top-left raster.
           char rowBuf[81];
-          rowBuf[width] = '\0';
+          rowBuf[WIDTH] = '\0';
           for (int y = HEIGHT - 1; y >= 0; y--) {
               for (int x = 0; x < width; x++) rowBuf[x] = screen[x][y];
               ImGui::TextUnformatted(rowBuf, rowBuf + width);
