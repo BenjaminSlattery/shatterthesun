@@ -28,7 +28,7 @@
                 if (x < 20)
                     screen[x][17] = "═";
                 else
-                    screen[x][27] = "═";
+                    screen[x][RIGHTVERTSPLIT] = "═";
             }
 
             for (int y = 1; y < HEIGHT - 1; y++) {
