@@ -61,7 +61,7 @@
           rowBuf[WIDTH] = '\0';
           for (int y = HEIGHT - 1; y >= 0; y--) {
               for (int x = 0; x < WIDTH; x++) rowBuf[x] = screen[x][y];
-              ImGui::TextUnformatted(rowBuf, rowBuf + width);
+              ImGui::TextUnformatted(rowBuf, rowBuf + WIDTH);
           }
           ImGui::SetWindowFontScale(1.0f);
       }
