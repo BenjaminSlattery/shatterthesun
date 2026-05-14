@@ -13,7 +13,7 @@
         // so multi-byte box-drawing characters (═ ║ ╔ ╝ etc., 3 bytes each in
         // UTF-8) survive intact.
         std::string screen[WIDTH][HEIGHT];
-        ImU32 fg[WIDTH][HEIGHT]()
+        ImU32 fg[WIDTH][HEIGHT];
 
         Screen() {
             for (int x = 0; x < WIDTH; x++)
