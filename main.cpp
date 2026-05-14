@@ -14,7 +14,7 @@
   int main() {
 
       glfwInit();
-      GLFWwindow* win = glfwCreateWindow(640, 600, "ImGui Demo", nullptr, nullptr);
+      GLFWwindow* win = glfwCreateWindow(640, 400, "ImGui Demo", nullptr, nullptr);
       glfwMakeContextCurrent(win);
 
       Screen *screen = new Screen();
