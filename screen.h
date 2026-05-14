@@ -37,7 +37,7 @@
                 screen[HORIZSPLIT][y] = "║";
             }
 
-            screen[HORIZSPLIT][LEFTVERTSPLIT] = "╣";
+            screen[HORIZSPLIT][HEIGHT] = "╣";
             screen[HORIZSPLIT][RIGHTVERTSPLIT] = "╠";
             screen[HORIZSPLIT][LEFTVERTSPLIT] = "╣";
             screen[HORIZSPLIT][RIGHTVERTSPLIT] = "╠";
