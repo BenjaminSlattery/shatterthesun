@@ -25,7 +25,7 @@
             for (int x = 1; x < WIDTH - 1; x++) {
                 screen[x][0] = "═";
                 screen[x][HEIGHT - 1] = "═";
-                if (x < 20)
+                if (x < HORIZSPLIT)
                     screen[x][LEFTVERTSPLIT] = "═";
                 else
                     screen[x][RIGHTVERTSPLIT] = "═";
