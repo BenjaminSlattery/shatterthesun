@@ -6,7 +6,8 @@
     public:
         static const int WIDTH = 80;
         static const int HEIGHT = 50;
-        static const int LEFTVERTSPLIT = 5
+        static const int LEFTVERTSPLIT = 5;
+        
         // Each cell holds a UTF-8 glyph (1+ bytes). std::string instead of char
         // so multi-byte box-drawing characters (═ ║ ╔ ╝ etc., 3 bytes each in
         // UTF-8) survive intact.
