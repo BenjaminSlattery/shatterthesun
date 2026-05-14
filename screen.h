@@ -19,7 +19,7 @@
             for (int x = 0; x < WIDTH; x++)
                 for (int y = 0; y < HEIGHT; y++) {
                     screen[x][y] = " ";
-                    
+                    screen_color[WIDTH][HEIGHT]
                 }
             Update();
         }
